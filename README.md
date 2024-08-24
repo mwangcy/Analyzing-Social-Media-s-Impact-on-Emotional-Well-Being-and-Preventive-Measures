@@ -19,19 +19,27 @@ This dataset includes user demographics, social media activity, and dominant emo
 ## Data Source: 
 The data was compiled by Emirhan BULUT and can be found on Kaggle: link.
 ## Projected Data Analytics Approach
-1.	Data Preprocessing: We will clean the data, engineer new features, and normalize numerical values. We will also need to one hot encode some of the categorical variables.
-2.	Exploratory Data Analysis (EDA): Identify trends and relationships between social media usage and emotional states. Find some insights that can be used for OLS regressions.
-3.	Predictive Modeling: Use OLS regressions in order to find variables that affect the mental states of users. We will then apply machine learning algorithms to predict dominant emotional states based on social media usage patterns by using the information obtain before.
-4.	Model Evaluation: Assess model performance using metrics like accuracy, precision, recall, and the F1 score.
-5.	Cluster Analysis: Cluster users to identify distinct groups and understand the differential impacts on their emotional well-being.
+
+1. **Data Preprocessing**: Clean the data, engineer new features, normalize numerical values, and one-hot encode categorical variables.
+2. **Exploratory Data Analysis (EDA)**: Identify trends and relationships between social media usage and emotional states. Extract insights for OLS regressions.
+3. **Predictive Modeling**: Apply OLS regressions to determine variables affecting users' mental states. Use machine learning algorithms to predict dominant emotional states based on social media usage patterns.
+4. **Model Evaluation**: Evaluate model performance using metrics such as accuracy, precision, recall, and F1 score.
+5. **Cluster Analysis**: Cluster users to identify distinct groups and analyze the impact on their emotional well-being.
+
+---
 # Hypotheses
-1.	H1: Certain social media platforms tend to have a more negative effect on users compared to others. I believe that Instagram may have a particularly negative impact.
-2.	H2: The amount of time spent on social media does not correlate directly with dominant emotion, but the feedback received from time spent does.
-Practical Implications
-1.	Policymakers: Develop guidelines for healthier social media usage, establish policies protecting vulnerable groups, and collaborate with platforms and mental health organizations.
-2.	Educators and Counselors: Design educational programs on digital literacy, integrate findings into school curricula, and offer support services for affected individuals.
-3.	Social Media Platforms: Use insights to improve user experience, implement proactive measures like content moderation, and prioritize user mental health.
-4.	General Public: Raise awareness and encourage discussions to destigmatize mental health issues related to social media, aiming to create a healthier digital environment for everyone.
+
+1. **H1**: Certain social media platforms may have a more negative impact on users, with Instagram potentially being particularly detrimental.
+2. **H2**: Time spent on social media may not directly correlate with dominant emotions, but feedback received from social media activity does.
+
+**Practical Implications**
+
+1. **Policymakers**: Develop guidelines for healthier social media use, establish protections for vulnerable groups, and collaborate with platforms and mental health organizations.
+2. **Educators and Counselors**: Create digital literacy programs, integrate findings into curricula, and offer support services for affected individuals.
+3. **Social Media Platforms**: Use insights to enhance user experience, implement proactive measures like content moderation, and focus on user mental health.
+4. **General Public**: Raise awareness, encourage discussions to destigmatize mental health issues related to social media, and promote a healthier digital environment.
+
+---
 ## Methodology:
 1.	Data Cleaning: I addressed inconsistencies by removing rows with missing values, as these did not contribute meaningful information. I identified and corrected data type issues by examining the dataset thoroughly. It became apparent that two columns, age and gender, had some of their values swapped. After rectifying this error, I converted the columns to their appropriate data types.
 2.	Plotting: I conducted exploratory data analysis by first plotting bar charts to understand the data distribution and identify any patterns that could support my hypothesis. Following this, I generated a correlation heatmap to explore the relationships between different variables, and finally, I produced a pairwise graph for further analysis.
