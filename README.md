@@ -15,9 +15,8 @@ This dataset includes user demographics, social media activity, and dominant emo
 - **Messages Sent Per Day**: Number of messages sent daily
 - **Dominant Emotion**: User's dominant emotional state (e.g., Happiness, Sadness, Anger, Anxiety, Boredom, Neutral)
 
----
 ## Data Source: 
-The data was compiled by Emirhan BULUT and can be found on Kaggle: link.
+The data was compiled by Emirhan BULUT and can be found on Kaggle: [Kaggle](https://www.kaggle.com/datasets/emirhanai/social-media-usage-and-emotional-well-being/data).
 ## Projected Data Analytics Approach
 
 1. **Data Preprocessing**: Clean the data, engineer new features, normalize numerical values, and one-hot encode categorical variables.
@@ -26,7 +25,6 @@ The data was compiled by Emirhan BULUT and can be found on Kaggle: link.
 4. **Model Evaluation**: Evaluate model performance using metrics such as accuracy, precision, recall, and F1 score.
 5. **Cluster Analysis**: Cluster users to identify distinct groups and analyze the impact on their emotional well-being.
 
----
 # Hypotheses
 
 1. **H1**: Certain social media platforms may have a more negative impact on users, with Instagram potentially being particularly detrimental.
@@ -39,7 +37,6 @@ The data was compiled by Emirhan BULUT and can be found on Kaggle: link.
 3. **Social Media Platforms**: Use insights to enhance user experience, implement proactive measures like content moderation, and focus on user mental health.
 4. **General Public**: Raise awareness, encourage discussions to destigmatize mental health issues related to social media, and promote a healthier digital environment.
 
----
 ## Methodology:
 1.	Data Cleaning: I addressed inconsistencies by removing rows with missing values, as these did not contribute meaningful information. I identified and corrected data type issues by examining the dataset thoroughly. It became apparent that two columns, age and gender, had some of their values swapped. After rectifying this error, I converted the columns to their appropriate data types.
 2.	Plotting: I conducted exploratory data analysis by first plotting bar charts to understand the data distribution and identify any patterns that could support my hypothesis. Following this, I generated a correlation heatmap to explore the relationships between different variables, and finally, I produced a pairwise graph for further analysis.
