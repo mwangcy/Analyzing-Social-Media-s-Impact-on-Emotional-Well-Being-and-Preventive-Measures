@@ -1,0 +1,2 @@
+# Analyzing-Social-Media-s-Impact-on-Emotional-Well-Being-and-Preventive-Measures
+Social media's rise raises concerns about mental health. While it can boost connectivity, excessive use often leads to emotional distress and reduced social interactions. This study aims to identify harmful usage patterns, determine which users are most affected, and find which platforms have the greatest negative impact.
