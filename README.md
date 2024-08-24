@@ -1,6 +1,6 @@
 # Analyzing Social Media's Impact on Emotional Well-Being and Preventive Measures
 
-![image](https://github.com/user-attachments/assets/a533754e-1f2b-4336-8c75-b366c340addb)
+![Social Media Logos](https://github.com/user-attachments/assets/a533754e-1f2b-4336-8c75-b366c340addb)
 
 ## Business Problem
 The rise of social media has sparked concerns about its impact on mental health. While social media can enhance social connectivity and provide entertainment, excessive or negative interactions may lead to emotional distress. Research indicates that social media can have the opposite effect of its intended purpose.  Instead of making people feel more connected and social, it has led to decreased social interactions and increased emotional distress.  This study aims to identify specific social media usage patterns that influence emotional well-being, helping to develop strategies for healthier digital habits. Additionally, the study will identify which users are more affected and which social media networks have the most negative impact.
